@@ -1,0 +1,26 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "docan"
+authors = [{name = "Kazuya Takei", email = "myself@attakei.net"}]
+readme = "README.rst"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dynamic = ["version", "description"]
+dependencies = [
+  "Click",
+  "docutils",
+]
+
+[project.optional-dependencies]
+doc = [
+  "Sphinx ==6.*",
+]
+test = [
+  "pytest",
+]
+
+[project.urls]
+Home = "https://attakei.github.io/docan"
