@@ -2,6 +2,8 @@
 DOCAN
 =====
 
+.. note:: This is experimental and is not implemented core features.
+
 DOCAN [#]_ is text linter for docutils document.
 
 Usage
