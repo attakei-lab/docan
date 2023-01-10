@@ -22,5 +22,8 @@ test = [
   "pytest",
 ]
 
+[project.scripts]
+docan = "docan.cli:main"
+
 [project.urls]
 Home = "https://attakei.github.io/docan"
