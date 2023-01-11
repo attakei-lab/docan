@@ -16,7 +16,9 @@ dependencies = [
 
 [project.optional-dependencies]
 doc = [
+  "blockdiag==3.*",
   "Sphinx ==6.*",
+  "sphinxcontrib-blockdiag",
 ]
 test = [
   "pytest",

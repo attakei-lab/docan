@@ -7,7 +7,7 @@ author = "Kazuya Takei"
 release = "0.0.1"
 
 # -- General configuration
-extensions = []
+extensions = ["sphinxcontrib.blockdiag"]
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 language = "ja"
@@ -15,3 +15,7 @@ language = "ja"
 # -- Options for HTML output
 html_theme = "alabaster"
 html_static_path = ["_static"]
+
+# -- Options for extensions
+# sphinxcontrib-blockdiag
+blockdiag_html_image_format = "SVG"
