@@ -16,7 +16,7 @@ dependencies = [
 
 [project.optional-dependencies]
 doc = [
-  "Sphinx ==6.*",
+  "Sphinx ==7.*",
 ]
 test = [
   "pytest",
